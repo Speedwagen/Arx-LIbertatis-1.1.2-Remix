@@ -4,7 +4,7 @@ This repository contains everything that you need to build [Arx Libertatis](http
 It also contains the necessary to build installers for the game.
 
 [Detailed instructions are available on the wiki.](https://wiki.arx-libertatis.org/Downloading_and_Compiling_under_Windows)
-
+[Forked from ArxWindows.](https://github.com/arx/ArxWindows)
 
 ### Libraries
 
