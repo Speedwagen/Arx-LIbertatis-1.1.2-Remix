@@ -67,4 +67,7 @@ and set its value to
 #### CMake Build Command for VS 2019 64bit
 		cmake .. -G "Visual Studio 16 2019" -A x64 -DUNITY_BUILD=1
 		
-#### Visual Studio will present an error
+#### Visual Studio will present an error - unresolved external symbol _vsnwprintf
+TO fix this make sure to add the following to your additional dependencies
+		
+		legacy_stdio_definitions.lib
