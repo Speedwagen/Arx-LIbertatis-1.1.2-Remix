@@ -1,0 +1,1374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\ub_arx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\ai\PathFinder.cpp">
+      <Filter>src\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\ai\PathFinderManager.cpp">
+      <Filter>src\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\ai\Paths.cpp">
+      <Filter>src\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\animation\Animation.cpp">
+      <Filter>src\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\animation\AnimationRender.cpp">
+      <Filter>src\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\animation\Cinematic.cpp">
+      <Filter>src\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\animation\CinematicKeyframer.cpp">
+      <Filter>src\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\animation\Intro.cpp">
+      <Filter>src\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\Ambiance.cpp">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\Audio.cpp">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\AudioEnvironment.cpp">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\AudioGlobal.cpp">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\AudioResource.cpp">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\AudioSource.cpp">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\Mixer.cpp">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\Sample.cpp">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\Stream.cpp">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\codec\ADPCM.cpp">
+      <Filter>src\audio\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\codec\RAW.cpp">
+      <Filter>src\audio\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\codec\WAV.cpp">
+      <Filter>src\audio\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\openal\OpenALBackend.cpp">
+      <Filter>src\audio\openal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\openal\OpenALSource.cpp">
+      <Filter>src\audio\openal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\openal\OpenALUtils.cpp">
+      <Filter>src\audio\openal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\dsound\DSoundBackend.cpp">
+      <Filter>src\audio\dsound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\dsound\DSoundSource.cpp">
+      <Filter>src\audio\dsound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\Application.cpp">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\ArxGame.cpp">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\Config.cpp">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\Core.cpp">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\GameTime.cpp">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\Localisation.cpp">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\SaveGame.cpp">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\Startup.cpp">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\Parser.cpp">
+      <Filter>src\util\cmdline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Camera.cpp">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Damage.cpp">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Entity.cpp">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\EntityId.cpp">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\EntityManager.cpp">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Equipment.cpp">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Inventory.cpp">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Item.cpp">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Levels.cpp">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Map.cpp">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Missile.cpp">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\NPC.cpp">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Player.cpp">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Spells.cpp">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\Draw.cpp">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\GraphicsModes.cpp">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\GraphicsUtility.cpp">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\Math.cpp">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\Renderer.cpp">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\CinematicTexture.cpp">
+      <Filter>src\graphics\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\FTL.cpp">
+      <Filter>src\graphics\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\Mesh.cpp">
+      <Filter>src\graphics\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\MeshManipulation.cpp">
+      <Filter>src\graphics\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\Progressive.cpp">
+      <Filter>src\graphics\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\TextureContainer.cpp">
+      <Filter>src\graphics\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\effects\CinematicEffects.cpp">
+      <Filter>src\graphics\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\effects\DrawEffects.cpp">
+      <Filter>src\graphics\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\effects\Fog.cpp">
+      <Filter>src\graphics\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\effects\SpellEffects.cpp">
+      <Filter>src\graphics\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\font\Font.cpp">
+      <Filter>src\graphics\font</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\font\FontCache.cpp">
+      <Filter>src\graphics\font</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\image\Image.cpp">
+      <Filter>src\graphics\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\image\stb_image.cpp">
+      <Filter>src\graphics\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\image\stb_image_write.cpp">
+      <Filter>src\graphics\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\particle\Particle.cpp">
+      <Filter>src\graphics\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\particle\ParticleEffects.cpp">
+      <Filter>src\graphics\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\particle\ParticleManager.cpp">
+      <Filter>src\graphics\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\particle\ParticleSystem.cpp">
+      <Filter>src\graphics\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells01.cpp">
+      <Filter>src\graphics\spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells02.cpp">
+      <Filter>src\graphics\spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells03.cpp">
+      <Filter>src\graphics\spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells04.cpp">
+      <Filter>src\graphics\spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells05.cpp">
+      <Filter>src\graphics\spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells06.cpp">
+      <Filter>src\graphics\spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells07.cpp">
+      <Filter>src\graphics\spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells09.cpp">
+      <Filter>src\graphics\spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells10.cpp">
+      <Filter>src\graphics\spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\texture\PackedTexture.cpp">
+      <Filter>src\graphics\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\texture\Texture.cpp">
+      <Filter>src\graphics\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\texture\TextureStage.cpp">
+      <Filter>src\graphics\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\d3d9\D3D9Renderer.cpp">
+      <Filter>src\graphics\d3d9</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\d3d9\D3D9Texture2D.cpp">
+      <Filter>src\graphics\d3d9</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\d3d9\D3D9TextureStage.cpp">
+      <Filter>src\graphics\d3d9</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\opengl\GLTexture2D.cpp">
+      <Filter>src\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\opengl\GLTextureStage.cpp">
+      <Filter>src\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\opengl\OpenGLRenderer.cpp">
+      <Filter>src\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Credits.cpp">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Interface.cpp">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Menu.cpp">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\MenuPublic.cpp">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\MenuWidgets.cpp">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\MiniMap.cpp">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Note.cpp">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Speech.cpp">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Text.cpp">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\TextManager.cpp">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\input\Input.cpp">
+      <Filter>src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\input\SDLInputBackend.cpp">
+      <Filter>src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\input\DInput8Backend.cpp">
+      <Filter>src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\CinematicLoad.cpp">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\Implode.cpp">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\IniReader.cpp">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\IniSection.cpp">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\IniWriter.cpp">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\IO.cpp">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\SaveBlock.cpp">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\Screenshot.cpp">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\ConsoleLogger.cpp">
+      <Filter>src\io\log</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\LogBackend.cpp">
+      <Filter>src\io\log</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\Logger.cpp">
+      <Filter>src\io\log</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\MsvcLogger.cpp">
+      <Filter>src\io\log</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\FileLogger.cpp">
+      <Filter>src\io\log</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\CriticalLogger.cpp">
+      <Filter>src\io\log</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\Blast.cpp">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\resource\PakEntry.cpp">
+      <Filter>src\io\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\resource\PakReader.cpp">
+      <Filter>src\io\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\resource\ResourcePath.cpp">
+      <Filter>src\io\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\fs\FilePath.cpp">
+      <Filter>src\io\fs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\fs\FileStream.cpp">
+      <Filter>src\io\fs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\fs\Filesystem.cpp">
+      <Filter>src\io\fs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\fs\SystemPaths.cpp">
+      <Filter>src\io\fs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\fs\FilesystemWindows.cpp">
+      <Filter>src\io\fs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\math\Angle.cpp">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\math\Random.cpp">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Anchors.cpp">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Attractors.cpp">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Box.cpp">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Clothes.cpp">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Collisions.cpp">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\CollisionShapes.cpp">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Physics.cpp">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Dialog.cpp">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Environment.cpp">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Lock.cpp">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\OS.cpp">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Platform.cpp">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\ProgramOptions.cpp">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Time.cpp">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Thread.cpp">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\CrashHandler.cpp">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\ChangeLevel.cpp">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\CinematicSound.cpp">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\GameSound.cpp">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\Interactive.cpp">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\Light.cpp">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\LinkedObject.cpp">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\LoadLevel.cpp">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\Object.cpp">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\Scene.cpp">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\Script.cpp">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedAnimation.cpp">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedCamera.cpp">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedControl.cpp">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedConversation.cpp">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedInterface.cpp">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedInventory.cpp">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedIOControl.cpp">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedIOProperties.cpp">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedItem.cpp">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedLang.cpp">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedNPC.cpp">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedPlayer.cpp">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedVariable.cpp">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptEvent.cpp">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptUtils.cpp">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\String.cpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\window\RenderWindow.cpp">
+      <Filter>src\window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\window\Window.cpp">
+      <Filter>src\window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\window\Win32Window.cpp">
+      <Filter>src\window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\window\D3D9Window.cpp">
+      <Filter>src\window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\window\SDLWindow.cpp">
+      <Filter>src\window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\core\Version.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\ai\PathFinder.h">
+      <Filter>src\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\ai\PathFinderManager.h">
+      <Filter>src\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\ai\Paths.h">
+      <Filter>src\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\animation\Animation.h">
+      <Filter>src\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\animation\AnimationRender.h">
+      <Filter>src\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\animation\Cinematic.h">
+      <Filter>src\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\animation\CinematicKeyframer.h">
+      <Filter>src\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\Ambiance.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\Audio.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\AudioBackend.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\AudioEnvironment.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\AudioGlobal.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\AudioResource.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\AudioSource.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\AudioTypes.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\Mixer.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\Sample.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\Stream.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\codec\ADPCM.h">
+      <Filter>src\audio\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\codec\Codec.h">
+      <Filter>src\audio\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\codec\RAW.h">
+      <Filter>src\audio\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\codec\WAV.h">
+      <Filter>src\audio\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\codec\WAVFormat.h">
+      <Filter>src\audio\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\dsound\DSoundBackend.h">
+      <Filter>src\audio\dsound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\dsound\DSoundSource.h">
+      <Filter>src\audio\dsound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\dsound\dsoundfwd.h">
+      <Filter>src\audio\dsound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\dsound\eax.h">
+      <Filter>src\audio\dsound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\openal\OpenALBackend.h">
+      <Filter>src\audio\openal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\openal\OpenALSource.h">
+      <Filter>src\audio\openal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\openal\OpenALUtils.h">
+      <Filter>src\audio\openal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\Application.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\ArxGame.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\Config.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\Core.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\GameTime.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\Localisation.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\SaveGame.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\URLConstants.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\Version.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Camera.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Damage.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Entity.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\EntityId.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\EntityManager.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Equipment.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Inventory.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Item.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Levels.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Map.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Missile.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\NPC.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Player.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Spells.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\BaseGraphicsTypes.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\Color.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\Draw.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\GraphicsFormat.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\GraphicsModes.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\GraphicsTypes.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\GraphicsUtility.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\Math.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\Renderer.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\Vertex.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\VertexBuffer.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\d3d9\D3D9Renderer.h">
+      <Filter>src\graphics\d3d9</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\d3d9\D3D9Texture2D.h">
+      <Filter>src\graphics\d3d9</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\d3d9\D3D9TextureStage.h">
+      <Filter>src\graphics\d3d9</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\d3d9\D3D9VertexBuffer.h">
+      <Filter>src\graphics\d3d9</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\CinematicTexture.h">
+      <Filter>src\graphics\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\FTL.h">
+      <Filter>src\graphics\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\FTLFormat.h">
+      <Filter>src\graphics\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\FastSceneFormat.h">
+      <Filter>src\graphics\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\Mesh.h">
+      <Filter>src\graphics\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\MeshManipulation.h">
+      <Filter>src\graphics\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\Progressive.h">
+      <Filter>src\graphics\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\TextureContainer.h">
+      <Filter>src\graphics\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\effects\CinematicEffects.h">
+      <Filter>src\graphics\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\effects\DrawEffects.h">
+      <Filter>src\graphics\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\effects\Fog.h">
+      <Filter>src\graphics\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\effects\SpellEffects.h">
+      <Filter>src\graphics\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\font\Font.h">
+      <Filter>src\graphics\font</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\font\FontCache.h">
+      <Filter>src\graphics\font</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\image\Image.h">
+      <Filter>src\graphics\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\image\stb_image.h">
+      <Filter>src\graphics\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\image\stb_image_write.h">
+      <Filter>src\graphics\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\opengl\GLNoVertexBuffer.h">
+      <Filter>src\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\opengl\GLTexture2D.h">
+      <Filter>src\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\opengl\GLTextureStage.h">
+      <Filter>src\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\opengl\GLVertexBuffer.h">
+      <Filter>src\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\opengl\OpenGLRenderer.h">
+      <Filter>src\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\opengl\OpenGLUtil.h">
+      <Filter>src\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\particle\Particle.h">
+      <Filter>src\graphics\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\particle\ParticleEffects.h">
+      <Filter>src\graphics\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\particle\ParticleManager.h">
+      <Filter>src\graphics\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\particle\ParticleParams.h">
+      <Filter>src\graphics\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\particle\ParticleSystem.h">
+      <Filter>src\graphics\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells01.h">
+      <Filter>src\graphics\spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells02.h">
+      <Filter>src\graphics\spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells03.h">
+      <Filter>src\graphics\spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells04.h">
+      <Filter>src\graphics\spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells05.h">
+      <Filter>src\graphics\spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells06.h">
+      <Filter>src\graphics\spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells07.h">
+      <Filter>src\graphics\spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells09.h">
+      <Filter>src\graphics\spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells10.h">
+      <Filter>src\graphics\spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\texture\PackedTexture.h">
+      <Filter>src\graphics\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\texture\Texture.h">
+      <Filter>src\graphics\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\texture\TextureStage.h">
+      <Filter>src\graphics\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Credits.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Interface.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Menu.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\MenuPublic.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\MenuWidgets.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\MiniMap.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Note.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Speech.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Text.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\TextManager.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\input\DInput8Backend.h">
+      <Filter>src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\input\Input.h">
+      <Filter>src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\input\InputBackend.h">
+      <Filter>src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\input\InputKey.h">
+      <Filter>src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\input\Keyboard.h">
+      <Filter>src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\input\Mouse.h">
+      <Filter>src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\input\SDLInputBackend.h">
+      <Filter>src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\Blast.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\CinematicFormat.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\CinematicLoad.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\IO.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\Implode.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\IniReader.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\IniSection.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\IniWriter.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\SaveBlock.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\Screenshot.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\fs\FilePath.h">
+      <Filter>src\io\fs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\fs\FileStream.h">
+      <Filter>src\io\fs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\fs\Filesystem.h">
+      <Filter>src\io\fs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\fs\SystemPaths.h">
+      <Filter>src\io\fs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\ColorLogger.h">
+      <Filter>src\io\log</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\ConsoleLogger.h">
+      <Filter>src\io\log</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\CriticalLogger.h">
+      <Filter>src\io\log</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\FileLogger.h">
+      <Filter>src\io\log</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\LogBackend.h">
+      <Filter>src\io\log</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\Logger.h">
+      <Filter>src\io\log</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\MsvcLogger.h">
+      <Filter>src\io\log</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\resource\PakEntry.h">
+      <Filter>src\io\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\resource\PakReader.h">
+      <Filter>src\io\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\resource\ResourcePath.h">
+      <Filter>src\io\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\math\Angle.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\math\MathFwd.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\math\Random.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\math\Rectangle.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\math\Vector2.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\math\Vector3.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Anchors.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Attractors.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Box.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Clothes.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\CollisionShapes.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Collisions.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Physics.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Architecture.h">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Compiler.h">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\CrashHandler.h">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Dialog.h">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Environment.h">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Flags.h">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Lock.h">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\OS.h">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Platform.h">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\ProgramOptions.h">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Thread.h">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Time.h">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\crashhandler\CrashHandlerImpl.h">
+      <Filter>src\platform\crashhandler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\crashhandler\CrashHandlerPOSIX.h">
+      <Filter>src\platform\crashhandler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\crashhandler\CrashHandlerWindows.h">
+      <Filter>src\platform\crashhandler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\crashhandler\CrashInfo.h">
+      <Filter>src\platform\crashhandler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\ChangeLevel.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\CinematicSound.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\GameSound.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\Interactive.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\LevelFormat.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\Light.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\LinkedObject.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\LoadLevel.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\Object.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\ObjectFormat.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\SaveFormat.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\Scene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\Script.h">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptEvent.h">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptUtils.h">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedAnimation.h">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedCamera.h">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedControl.h">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedConversation.h">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedIOControl.h">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedIOProperties.h">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedInterface.h">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedInventory.h">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedItem.h">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedLang.h">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedNPC.h">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedPlayer.h">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedVariable.h">
+      <Filter>src\script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\String.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\Unicode.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\CommandLineException.h">
+      <Filter>src\util\cmdline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\Ellipsis.h">
+      <Filter>src\util\cmdline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\Interpreter.h">
+      <Filter>src\util\cmdline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\Keys.h">
+      <Filter>src\util\cmdline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\Optional.h">
+      <Filter>src\util\cmdline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\Parser.h">
+      <Filter>src\util\cmdline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\TypeCast.h">
+      <Filter>src\util\cmdline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\ArgsAdapter.h">
+      <Filter>src\util\cmdline\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\Construct.h">
+      <Filter>src\util\cmdline\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\Interpreter.h">
+      <Filter>src\util\cmdline\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\LFunction.h">
+      <Filter>src\util\cmdline\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\LexicalCall.h">
+      <Filter>src\util\cmdline\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\argsadapter\ArgsAdapterImpl.h">
+      <Filter>src\util\cmdline\detail\argsadapter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\argsadapter\ArgsImpl.h">
+      <Filter>src\util\cmdline\detail\argsadapter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\argsadapter\Get.h">
+      <Filter>src\util\cmdline\detail\argsadapter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\argsadapter\Preprocessed.h">
+      <Filter>src\util\cmdline\detail\argsadapter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\argsadapter\TypeImpl.h">
+      <Filter>src\util\cmdline\detail\argsadapter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\lfunction\LFNInvoker.h">
+      <Filter>src\util\cmdline\detail\lfunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\lfunction\MakeLFunctionC.h">
+      <Filter>src\util\cmdline\detail\lfunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\lfunction\MakeLFunctionOp.h">
+      <Filter>src\util\cmdline\detail\lfunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\lfunction\Preprocessed.h">
+      <Filter>src\util\cmdline\detail\lfunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\window\D3D9Window.h">
+      <Filter>src\window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\window\RenderWindow.h">
+      <Filter>src\window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\window\SDLWindow.h">
+      <Filter>src\window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\window\Win32Window.h">
+      <Filter>src\window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\window\Window.h">
+      <Filter>src\window</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\Version.cpp.in">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Code\Git\arx-libertatis-Remix\arx\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Code\Git\arx-libertatis-Remix\arx\data\icons\arx-libertatis.rc">
+      <Filter>data\icons</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4C6146F5-3564-3A6D-9E98-DE08AF325D14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B09EE32C-9D6D-3BBD-A609-25207E1D6ADD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{33EB91B1-6106-3278-A9F4-20625AD77388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\icons">
+      <UniqueIdentifier>{439069AE-A127-3088-8864-BD8B8DA00854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4B016762-A0E5-35CA-9351-12FD3CBC38F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ai">
+      <UniqueIdentifier>{2E4D8056-F870-39D2-8DD7-2ECCA31C106D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\animation">
+      <UniqueIdentifier>{5C2CCFD7-D263-345D-8297-8C67EBE42571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio">
+      <UniqueIdentifier>{2C32AF98-5B9F-3F78-AADF-E9339B307530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\codec">
+      <UniqueIdentifier>{98047DA6-FCA6-3586-BF99-FA2192B3F8F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\dsound">
+      <UniqueIdentifier>{231C4D97-DFFB-3CD2-A6D9-922B362C7306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\openal">
+      <UniqueIdentifier>{88412FC6-096C-358B-84BC-F5212173CA3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{83751B6A-FCF4-36A1-B1BB-C1C50423AF06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game">
+      <UniqueIdentifier>{4205172D-9848-3787-B8FA-8BC0F08642FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics">
+      <UniqueIdentifier>{15B87878-75D4-31A9-B06D-9FABC170E22B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\d3d9">
+      <UniqueIdentifier>{E8DCE34F-6712-3B4F-AE29-3F6DBC3224A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\data">
+      <UniqueIdentifier>{D8E186F4-C180-3517-92F2-C7D3F18EE207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\effects">
+      <UniqueIdentifier>{A14C7DAD-A36F-3F37-A196-78ABF0CDC32B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\font">
+      <UniqueIdentifier>{4BE41116-71CD-3FE1-AB0B-5FF259D0E441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\image">
+      <UniqueIdentifier>{6F6BCE47-6681-372A-9F75-D0C7B14F0E40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\opengl">
+      <UniqueIdentifier>{48DFD6ED-FAAC-3C19-9765-86B9E5F7D99E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\particle">
+      <UniqueIdentifier>{50A7FE87-FDD7-3530-8BD9-9D747584220B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\spells">
+      <UniqueIdentifier>{BB346D01-CB59-3CB2-924F-115DA34D21EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\texture">
+      <UniqueIdentifier>{6668429C-AF9D-3A10-84EC-AA5402D5485C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui">
+      <UniqueIdentifier>{010FD653-3ED8-3717-9D1C-A8EEAA073EB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\input">
+      <UniqueIdentifier>{7AC9F1CE-8828-3E70-B934-21FA8232C3CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\io">
+      <UniqueIdentifier>{E17D7DFF-F2A3-395F-B692-330999F8089F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\io\fs">
+      <UniqueIdentifier>{6DBDD4E9-DE3B-3137-B9DD-A2784137F864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\io\log">
+      <UniqueIdentifier>{B0DF3473-30D1-3D91-A20C-F4EA410F1B93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\io\resource">
+      <UniqueIdentifier>{6587E976-723D-30F8-A4BD-298E1C7EFBE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\math">
+      <UniqueIdentifier>{9B4092FB-CE0D-3305-9821-33473A85A64B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\physics">
+      <UniqueIdentifier>{49C0A8FB-9EDB-33BB-AF37-A67CA297D4F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\platform">
+      <UniqueIdentifier>{2B13F0F2-0CEC-3485-B76E-6947AC0A7790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\platform\crashhandler">
+      <UniqueIdentifier>{3255433D-DBF5-32EE-A69A-E9FB167D9C85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scene">
+      <UniqueIdentifier>{2118D4CC-9D44-34C7-B22C-738101A76567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\script">
+      <UniqueIdentifier>{14C8DA3A-EB5B-3CCF-B18C-1ACA64B63672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util">
+      <UniqueIdentifier>{98258768-421A-3BE8-9AA6-BE125E034488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\cmdline">
+      <UniqueIdentifier>{CCACB4B5-CD43-3BA0-A3A6-CBAF984468A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\cmdline\detail">
+      <UniqueIdentifier>{3F0D1C66-9159-3B97-AA5B-6FC55C3DF473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\cmdline\detail\argsadapter">
+      <UniqueIdentifier>{83D4A0A5-C21F-3527-ABBF-848E8F48E549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\cmdline\detail\lfunction">
+      <UniqueIdentifier>{CC045806-7193-3792-80A2-1E27135B4021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\window">
+      <UniqueIdentifier>{07B3B46F-E400-3A25-9434-9F43B60761C8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

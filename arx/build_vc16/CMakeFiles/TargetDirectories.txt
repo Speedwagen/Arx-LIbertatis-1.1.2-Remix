@@ -1,0 +1,8 @@
+C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/CMakeFiles/ub_notice.dir
+C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/CMakeFiles/arx.dir
+C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/CMakeFiles/arxsavetool.dir
+C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/CMakeFiles/arxunpak.dir
+C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/CMakeFiles/style.dir
+C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/CMakeFiles/INSTALL.dir
+C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/CMakeFiles/ALL_BUILD.dir
+C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/CMakeFiles/ZERO_CHECK.dir

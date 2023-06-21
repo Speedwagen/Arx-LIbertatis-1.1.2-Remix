@@ -1,0 +1,832 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{31900DA8-4CE5-32E6-B6BB-00C7C0F34961}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>arx</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">arx.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">arx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">arx.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">arx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">arx.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">arx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">arx.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">arx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Code\Git\arx-libertatis-Remix\arx\src;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16;C:\Code\Git\arx-libertatis-Remix\arx\tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "E:/git/ArxWindows/libs/freetype/include" /external:I "E:/git/ArxWindows/libs/zlib/include" /external:I "E:/git/ArxWindows/libs/boost" /external:I "E:/git/ArxWindows/libs/openal/include" /external:I "E:/git/ArxWindows/libs/directx/include" /external:I "E:/git/ArxWindows/libs/opengl/include" /external:I "E:/git/ArxWindows/libs/sdl/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4995;4244;4267;4127;4201;4503</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_HAS_ITERATOR_DEBUGGING=0;_SECURE_SCL=0;_SECURE_SCL_THROWS=0;_ITERATOR_DEBUG_LEVEL=0;_WIN32_WINNT=0x0502;NOMINMAX;WIN32_LEAN_AND_MEAN;ZLIB_WINAPI;GL_GLEXT_PROTOTYPES;GLEW_STATIC;ARX_HAVE_WINDOWS_FILESYSTEM;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_HAS_ITERATOR_DEBUGGING=0;_SECURE_SCL=0;_SECURE_SCL_THROWS=0;_ITERATOR_DEBUG_LEVEL=0;_WIN32_WINNT=0x0502;NOMINMAX;WIN32_LEAN_AND_MEAN;ZLIB_WINAPI;GL_GLEXT_PROTOTYPES;GLEW_STATIC;ARX_HAVE_WINDOWS_FILESYSTEM;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Code\Git\arx-libertatis-Remix\arx\src;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16;C:\Code\Git\arx-libertatis-Remix\arx\tools;E:\git\ArxWindows\libs\freetype\include;E:\git\ArxWindows\libs\zlib\include;E:\git\ArxWindows\libs\boost;E:\git\ArxWindows\libs\openal\include;E:\git\ArxWindows\libs\directx\include;E:\git\ArxWindows\libs\opengl\include;E:\git\ArxWindows\libs\sdl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Code\Git\arx-libertatis-Remix\arx\src;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16;C:\Code\Git\arx-libertatis-Remix\arx\tools;E:\git\ArxWindows\libs\freetype\include;E:\git\ArxWindows\libs\zlib\include;E:\git\ArxWindows\libs\boost;E:\git\ArxWindows\libs\openal\include;E:\git\ArxWindows\libs\directx\include;E:\git\ArxWindows\libs\opengl\include;E:\git\ArxWindows\libs\sdl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>gdi32.lib;shell32.lib;comdlg32.lib;ole32.lib;comctl32.lib;E:\git\ArxWindows\libs\freetype\lib\x64\freetype.lib;E:\git\ArxWindows\libs\zlib\lib\x64\zlib.lib;E:\git\ArxWindows\libs\openal\lib\x64\OpenAL.lib;E:\git\ArxWindows\libs\directx\lib\x64\d3d9.lib;E:\git\ArxWindows\libs\directx\lib\x64\d3dx9.lib;E:\git\ArxWindows\libs\directx\lib\x64\d3dcompiler.lib;E:\git\ArxWindows\libs\directx\lib\x64\DxErr.lib;E:\git\ArxWindows\libs\opengl\lib\x64\glew64s.lib;opengl32.lib;E:\git\ArxWindows\libs\sdl\lib\x64\SDL.lib;E:\git\ArxWindows\libs\directx\lib\x64\dinput8.lib;E:\git\ArxWindows\libs\directx\lib\x64\dxguid.lib;kernel32.lib;user32.lib;winspool.lib;oleaut32.lib;uuid.lib;advapi32.lib;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x64\legacy_stdio_definitions.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/Debug/arx.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/Debug/arx.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Code\Git\arx-libertatis-Remix\arx\src;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16;C:\Code\Git\arx-libertatis-Remix\arx\tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "E:/git/ArxWindows/libs/freetype/include" /external:I "E:/git/ArxWindows/libs/zlib/include" /external:I "E:/git/ArxWindows/libs/boost" /external:I "E:/git/ArxWindows/libs/openal/include" /external:I "E:/git/ArxWindows/libs/directx/include" /external:I "E:/git/ArxWindows/libs/opengl/include" /external:I "E:/git/ArxWindows/libs/sdl/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4995;4244;4267;4127;4201;4503</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_HAS_ITERATOR_DEBUGGING=0;_SECURE_SCL=0;_SECURE_SCL_THROWS=0;_ITERATOR_DEBUG_LEVEL=0;_WIN32_WINNT=0x0502;NOMINMAX;WIN32_LEAN_AND_MEAN;ZLIB_WINAPI;GL_GLEXT_PROTOTYPES;GLEW_STATIC;ARX_HAVE_WINDOWS_FILESYSTEM;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_HAS_ITERATOR_DEBUGGING=0;_SECURE_SCL=0;_SECURE_SCL_THROWS=0;_ITERATOR_DEBUG_LEVEL=0;_WIN32_WINNT=0x0502;NOMINMAX;WIN32_LEAN_AND_MEAN;ZLIB_WINAPI;GL_GLEXT_PROTOTYPES;GLEW_STATIC;ARX_HAVE_WINDOWS_FILESYSTEM;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Code\Git\arx-libertatis-Remix\arx\src;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16;C:\Code\Git\arx-libertatis-Remix\arx\tools;E:\git\ArxWindows\libs\freetype\include;E:\git\ArxWindows\libs\zlib\include;E:\git\ArxWindows\libs\boost;E:\git\ArxWindows\libs\openal\include;E:\git\ArxWindows\libs\directx\include;E:\git\ArxWindows\libs\opengl\include;E:\git\ArxWindows\libs\sdl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Code\Git\arx-libertatis-Remix\arx\src;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16;C:\Code\Git\arx-libertatis-Remix\arx\tools;E:\git\ArxWindows\libs\freetype\include;E:\git\ArxWindows\libs\zlib\include;E:\git\ArxWindows\libs\boost;E:\git\ArxWindows\libs\openal\include;E:\git\ArxWindows\libs\directx\include;E:\git\ArxWindows\libs\opengl\include;E:\git\ArxWindows\libs\sdl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>gdi32.lib;shell32.lib;comdlg32.lib;ole32.lib;comctl32.lib;E:\git\ArxWindows\libs\freetype\lib\x64\freetype.lib;E:\git\ArxWindows\libs\zlib\lib\x64\zlib.lib;E:\git\ArxWindows\libs\openal\lib\x64\OpenAL.lib;E:\git\ArxWindows\libs\directx\lib\x64\d3d9.lib;E:\git\ArxWindows\libs\directx\lib\x64\d3dx9.lib;E:\git\ArxWindows\libs\directx\lib\x64\d3dcompiler.lib;E:\git\ArxWindows\libs\directx\lib\x64\DxErr.lib;E:\git\ArxWindows\libs\opengl\lib\x64\glew64s.lib;opengl32.lib;E:\git\ArxWindows\libs\sdl\lib\x64\SDL.lib;E:\git\ArxWindows\libs\directx\lib\x64\dinput8.lib;E:\git\ArxWindows\libs\directx\lib\x64\dxguid.lib;kernel32.lib;user32.lib;winspool.lib;oleaut32.lib;uuid.lib;advapi32.lib;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x64\legacy_stdio_definitions.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/Release/arx.lib</ImportLibrary>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/Release/arx.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Code\Git\arx-libertatis-Remix\arx\src;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16;C:\Code\Git\arx-libertatis-Remix\arx\tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "E:/git/ArxWindows/libs/freetype/include" /external:I "E:/git/ArxWindows/libs/zlib/include" /external:I "E:/git/ArxWindows/libs/boost" /external:I "E:/git/ArxWindows/libs/openal/include" /external:I "E:/git/ArxWindows/libs/directx/include" /external:I "E:/git/ArxWindows/libs/opengl/include" /external:I "E:/git/ArxWindows/libs/sdl/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4995;4244;4267;4127;4201;4503</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_HAS_ITERATOR_DEBUGGING=0;_SECURE_SCL=0;_SECURE_SCL_THROWS=0;_ITERATOR_DEBUG_LEVEL=0;_WIN32_WINNT=0x0502;NOMINMAX;WIN32_LEAN_AND_MEAN;ZLIB_WINAPI;GL_GLEXT_PROTOTYPES;GLEW_STATIC;ARX_HAVE_WINDOWS_FILESYSTEM;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_HAS_ITERATOR_DEBUGGING=0;_SECURE_SCL=0;_SECURE_SCL_THROWS=0;_ITERATOR_DEBUG_LEVEL=0;_WIN32_WINNT=0x0502;NOMINMAX;WIN32_LEAN_AND_MEAN;ZLIB_WINAPI;GL_GLEXT_PROTOTYPES;GLEW_STATIC;ARX_HAVE_WINDOWS_FILESYSTEM;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Code\Git\arx-libertatis-Remix\arx\src;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16;C:\Code\Git\arx-libertatis-Remix\arx\tools;E:\git\ArxWindows\libs\freetype\include;E:\git\ArxWindows\libs\zlib\include;E:\git\ArxWindows\libs\boost;E:\git\ArxWindows\libs\openal\include;E:\git\ArxWindows\libs\directx\include;E:\git\ArxWindows\libs\opengl\include;E:\git\ArxWindows\libs\sdl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Code\Git\arx-libertatis-Remix\arx\src;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16;C:\Code\Git\arx-libertatis-Remix\arx\tools;E:\git\ArxWindows\libs\freetype\include;E:\git\ArxWindows\libs\zlib\include;E:\git\ArxWindows\libs\boost;E:\git\ArxWindows\libs\openal\include;E:\git\ArxWindows\libs\directx\include;E:\git\ArxWindows\libs\opengl\include;E:\git\ArxWindows\libs\sdl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>gdi32.lib;shell32.lib;comdlg32.lib;ole32.lib;comctl32.lib;E:\git\ArxWindows\libs\freetype\lib\x64\freetype.lib;E:\git\ArxWindows\libs\zlib\lib\x64\zlib.lib;E:\git\ArxWindows\libs\openal\lib\x64\OpenAL.lib;E:\git\ArxWindows\libs\directx\lib\x64\d3d9.lib;E:\git\ArxWindows\libs\directx\lib\x64\d3dx9.lib;E:\git\ArxWindows\libs\directx\lib\x64\d3dcompiler.lib;E:\git\ArxWindows\libs\directx\lib\x64\DxErr.lib;E:\git\ArxWindows\libs\opengl\lib\x64\glew64s.lib;opengl32.lib;E:\git\ArxWindows\libs\sdl\lib\x64\SDL.lib;E:\git\ArxWindows\libs\directx\lib\x64\dinput8.lib;E:\git\ArxWindows\libs\directx\lib\x64\dxguid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/MinSizeRel/arx.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/MinSizeRel/arx.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Code\Git\arx-libertatis-Remix\arx\src;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16;C:\Code\Git\arx-libertatis-Remix\arx\tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "E:/git/ArxWindows/libs/freetype/include" /external:I "E:/git/ArxWindows/libs/zlib/include" /external:I "E:/git/ArxWindows/libs/boost" /external:I "E:/git/ArxWindows/libs/openal/include" /external:I "E:/git/ArxWindows/libs/directx/include" /external:I "E:/git/ArxWindows/libs/opengl/include" /external:I "E:/git/ArxWindows/libs/sdl/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4995;4244;4267;4127;4201;4503</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_HAS_ITERATOR_DEBUGGING=0;_SECURE_SCL=0;_SECURE_SCL_THROWS=0;_ITERATOR_DEBUG_LEVEL=0;_WIN32_WINNT=0x0502;NOMINMAX;WIN32_LEAN_AND_MEAN;ZLIB_WINAPI;GL_GLEXT_PROTOTYPES;GLEW_STATIC;ARX_HAVE_WINDOWS_FILESYSTEM;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_HAS_ITERATOR_DEBUGGING=0;_SECURE_SCL=0;_SECURE_SCL_THROWS=0;_ITERATOR_DEBUG_LEVEL=0;_WIN32_WINNT=0x0502;NOMINMAX;WIN32_LEAN_AND_MEAN;ZLIB_WINAPI;GL_GLEXT_PROTOTYPES;GLEW_STATIC;ARX_HAVE_WINDOWS_FILESYSTEM;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Code\Git\arx-libertatis-Remix\arx\src;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16;C:\Code\Git\arx-libertatis-Remix\arx\tools;E:\git\ArxWindows\libs\freetype\include;E:\git\ArxWindows\libs\zlib\include;E:\git\ArxWindows\libs\boost;E:\git\ArxWindows\libs\openal\include;E:\git\ArxWindows\libs\directx\include;E:\git\ArxWindows\libs\opengl\include;E:\git\ArxWindows\libs\sdl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Code\Git\arx-libertatis-Remix\arx\src;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16;C:\Code\Git\arx-libertatis-Remix\arx\tools;E:\git\ArxWindows\libs\freetype\include;E:\git\ArxWindows\libs\zlib\include;E:\git\ArxWindows\libs\boost;E:\git\ArxWindows\libs\openal\include;E:\git\ArxWindows\libs\directx\include;E:\git\ArxWindows\libs\opengl\include;E:\git\ArxWindows\libs\sdl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>gdi32.lib;shell32.lib;comdlg32.lib;ole32.lib;comctl32.lib;E:\git\ArxWindows\libs\freetype\lib\x64\freetype.lib;E:\git\ArxWindows\libs\zlib\lib\x64\zlib.lib;E:\git\ArxWindows\libs\openal\lib\x64\OpenAL.lib;E:\git\ArxWindows\libs\directx\lib\x64\d3d9.lib;E:\git\ArxWindows\libs\directx\lib\x64\d3dx9.lib;E:\git\ArxWindows\libs\directx\lib\x64\d3dcompiler.lib;E:\git\ArxWindows\libs\directx\lib\x64\DxErr.lib;E:\git\ArxWindows\libs\opengl\lib\x64\glew64s.lib;opengl32.lib;E:\git\ArxWindows\libs\sdl\lib\x64\SDL.lib;E:\git\ArxWindows\libs\directx\lib\x64\dinput8.lib;E:\git\ArxWindows\libs\directx\lib\x64\dxguid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/RelWithDebInfo/arx.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/RelWithDebInfo/arx.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\Version.cpp.in">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -DINPUT=C:/Code/Git/arx-libertatis-Remix/arx/src/core/Version.cpp.in -DOUTPUT=C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/core/Version.cpp -DVERSION_SOURCES=VERSION";"C:/Code/Git/arx-libertatis-Remix/arx/VERSION";"AUTHORS";"C:/Code/Git/arx-libertatis-Remix/arx/AUTHORS -DGIT_DIR=C:/Code/Git/arx-libertatis-Remix/arx/.git -P C:/Code/Git/arx-libertatis-Remix/arx/cmake/VersionScript.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Code\Git\arx-libertatis-Remix\arx\cmake\VersionScript.cmake;C:\Code\Git\arx-libertatis-Remix\arx\VERSION;C:\Code\Git\arx-libertatis-Remix\arx\AUTHORS;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\core\Version.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -DINPUT=C:/Code/Git/arx-libertatis-Remix/arx/src/core/Version.cpp.in -DOUTPUT=C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/core/Version.cpp -DVERSION_SOURCES=VERSION";"C:/Code/Git/arx-libertatis-Remix/arx/VERSION";"AUTHORS";"C:/Code/Git/arx-libertatis-Remix/arx/AUTHORS -DGIT_DIR=C:/Code/Git/arx-libertatis-Remix/arx/.git -P C:/Code/Git/arx-libertatis-Remix/arx/cmake/VersionScript.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Code\Git\arx-libertatis-Remix\arx\cmake\VersionScript.cmake;C:\Code\Git\arx-libertatis-Remix\arx\VERSION;C:\Code\Git\arx-libertatis-Remix\arx\AUTHORS;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\core\Version.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+      </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -DINPUT=C:/Code/Git/arx-libertatis-Remix/arx/src/core/Version.cpp.in -DOUTPUT=C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/core/Version.cpp -DVERSION_SOURCES=VERSION";"C:/Code/Git/arx-libertatis-Remix/arx/VERSION";"AUTHORS";"C:/Code/Git/arx-libertatis-Remix/arx/AUTHORS -DGIT_DIR=C:/Code/Git/arx-libertatis-Remix/arx/.git -P C:/Code/Git/arx-libertatis-Remix/arx/cmake/VersionScript.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Code\Git\arx-libertatis-Remix\arx\cmake\VersionScript.cmake;C:\Code\Git\arx-libertatis-Remix\arx\VERSION;C:\Code\Git\arx-libertatis-Remix\arx\AUTHORS;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\core\Version.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+      </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -DINPUT=C:/Code/Git/arx-libertatis-Remix/arx/src/core/Version.cpp.in -DOUTPUT=C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/core/Version.cpp -DVERSION_SOURCES=VERSION";"C:/Code/Git/arx-libertatis-Remix/arx/VERSION";"AUTHORS";"C:/Code/Git/arx-libertatis-Remix/arx/AUTHORS -DGIT_DIR=C:/Code/Git/arx-libertatis-Remix/arx/.git -P C:/Code/Git/arx-libertatis-Remix/arx/cmake/VersionScript.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Code\Git\arx-libertatis-Remix\arx\cmake\VersionScript.cmake;C:\Code\Git\arx-libertatis-Remix\arx\VERSION;C:\Code\Git\arx-libertatis-Remix\arx\AUTHORS;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\core\Version.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Code\Git\arx-libertatis-Remix\arx\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Code/Git/arx-libertatis-Remix/arx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/Code/Git/arx-libertatis-Remix/arx -BC:/Code/Git/arx-libertatis-Remix/arx/build_vc16 --check-stamp-file C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\CMake\share\cmake-3.27\Modules\CMakeCCompiler.cmake.in;C:\CMake\share\cmake-3.27\Modules\CMakeCCompilerABI.c;C:\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeCXXCompiler.cmake.in;C:\CMake\share\cmake-3.27\Modules\CMakeCXXCompilerABI.cpp;C:\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCXXCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineRCCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineSystem.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeParseLibraryArchitecture.cmake;C:\CMake\share\cmake-3.27\Modules\CMakePushCheckState.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeRCCompiler.cmake.in;C:\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeSystem.cmake.in;C:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeTestCCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeTestCXXCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeTestRCCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.27\Modules\CheckCXXSourceCompiles.cmake;C:\CMake\share\cmake-3.27\Modules\CheckCXXSymbolExists.cmake;C:\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;C:\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.27\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.27\Modules\CheckTypeSize.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.27\Modules\FindBoost.cmake;C:\CMake\share\cmake-3.27\Modules\FindDoxygen.cmake;C:\CMake\share\cmake-3.27\Modules\FindFreetype.cmake;C:\CMake\share\cmake-3.27\Modules\FindOpenAL.cmake;C:\CMake\share\cmake-3.27\Modules\FindOpenGL.cmake;C:\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.27\Modules\FindPythonInterp.cmake;C:\CMake\share\cmake-3.27\Modules\FindQt4.cmake;C:\CMake\share\cmake-3.27\Modules\FindSDL.cmake;C:\CMake\share\cmake-3.27\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.27\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.27\Modules\GNUInstallDirs.cmake;C:\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.27\Modules\Internal\FeatureTesting.cmake;C:\CMake\share\cmake-3.27\Modules\MacroAddFileDependencies.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows-Determine-CXX.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\CMakeFiles\3.27.0-rc2\CMakeCCompiler.cmake;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\CMakeFiles\3.27.0-rc2\CMakeCXXCompiler.cmake;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\CMakeFiles\3.27.0-rc2\CMakeRCCompiler.cmake;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\CMakeFiles\3.27.0-rc2\CMakeSystem.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\BuildSystem.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\BuildType.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\CompileCheck.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\CreateSourceGroups.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\FindDirectX.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\FindGLEW.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\FindOpenALEFX.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\PrintConfiguration.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\StyleCheck.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\UseStaticLibs.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\VersionString.cmake;C:\Code\Git\arx-libertatis-Remix\arx\src\Configure.h.in;C:\Code\Git\arx-libertatis-Remix\arx\src\io\fs\PathConstants.h.in;C:\Code\Git\arx-libertatis-Remix\arx\src\platform\PlatformConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Code/Git/arx-libertatis-Remix/arx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/Code/Git/arx-libertatis-Remix/arx -BC:/Code/Git/arx-libertatis-Remix/arx/build_vc16 --check-stamp-file C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\CMake\share\cmake-3.27\Modules\CMakeCCompiler.cmake.in;C:\CMake\share\cmake-3.27\Modules\CMakeCCompilerABI.c;C:\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeCXXCompiler.cmake.in;C:\CMake\share\cmake-3.27\Modules\CMakeCXXCompilerABI.cpp;C:\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCXXCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineRCCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineSystem.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeParseLibraryArchitecture.cmake;C:\CMake\share\cmake-3.27\Modules\CMakePushCheckState.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeRCCompiler.cmake.in;C:\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeSystem.cmake.in;C:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeTestCCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeTestCXXCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeTestRCCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.27\Modules\CheckCXXSourceCompiles.cmake;C:\CMake\share\cmake-3.27\Modules\CheckCXXSymbolExists.cmake;C:\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;C:\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.27\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.27\Modules\CheckTypeSize.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.27\Modules\FindBoost.cmake;C:\CMake\share\cmake-3.27\Modules\FindDoxygen.cmake;C:\CMake\share\cmake-3.27\Modules\FindFreetype.cmake;C:\CMake\share\cmake-3.27\Modules\FindOpenAL.cmake;C:\CMake\share\cmake-3.27\Modules\FindOpenGL.cmake;C:\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.27\Modules\FindPythonInterp.cmake;C:\CMake\share\cmake-3.27\Modules\FindQt4.cmake;C:\CMake\share\cmake-3.27\Modules\FindSDL.cmake;C:\CMake\share\cmake-3.27\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.27\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.27\Modules\GNUInstallDirs.cmake;C:\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.27\Modules\Internal\FeatureTesting.cmake;C:\CMake\share\cmake-3.27\Modules\MacroAddFileDependencies.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows-Determine-CXX.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\CMakeFiles\3.27.0-rc2\CMakeCCompiler.cmake;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\CMakeFiles\3.27.0-rc2\CMakeCXXCompiler.cmake;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\CMakeFiles\3.27.0-rc2\CMakeRCCompiler.cmake;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\CMakeFiles\3.27.0-rc2\CMakeSystem.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\BuildSystem.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\BuildType.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\CompileCheck.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\CreateSourceGroups.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\FindDirectX.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\FindGLEW.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\FindOpenALEFX.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\PrintConfiguration.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\StyleCheck.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\UseStaticLibs.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\VersionString.cmake;C:\Code\Git\arx-libertatis-Remix\arx\src\Configure.h.in;C:\Code\Git\arx-libertatis-Remix\arx\src\io\fs\PathConstants.h.in;C:\Code\Git\arx-libertatis-Remix\arx\src\platform\PlatformConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Code/Git/arx-libertatis-Remix/arx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/Code/Git/arx-libertatis-Remix/arx -BC:/Code/Git/arx-libertatis-Remix/arx/build_vc16 --check-stamp-file C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\CMake\share\cmake-3.27\Modules\CMakeCCompiler.cmake.in;C:\CMake\share\cmake-3.27\Modules\CMakeCCompilerABI.c;C:\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeCXXCompiler.cmake.in;C:\CMake\share\cmake-3.27\Modules\CMakeCXXCompilerABI.cpp;C:\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCXXCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineRCCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineSystem.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeParseLibraryArchitecture.cmake;C:\CMake\share\cmake-3.27\Modules\CMakePushCheckState.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeRCCompiler.cmake.in;C:\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeSystem.cmake.in;C:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeTestCCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeTestCXXCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeTestRCCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.27\Modules\CheckCXXSourceCompiles.cmake;C:\CMake\share\cmake-3.27\Modules\CheckCXXSymbolExists.cmake;C:\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;C:\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.27\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.27\Modules\CheckTypeSize.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.27\Modules\FindBoost.cmake;C:\CMake\share\cmake-3.27\Modules\FindDoxygen.cmake;C:\CMake\share\cmake-3.27\Modules\FindFreetype.cmake;C:\CMake\share\cmake-3.27\Modules\FindOpenAL.cmake;C:\CMake\share\cmake-3.27\Modules\FindOpenGL.cmake;C:\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.27\Modules\FindPythonInterp.cmake;C:\CMake\share\cmake-3.27\Modules\FindQt4.cmake;C:\CMake\share\cmake-3.27\Modules\FindSDL.cmake;C:\CMake\share\cmake-3.27\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.27\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.27\Modules\GNUInstallDirs.cmake;C:\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.27\Modules\Internal\FeatureTesting.cmake;C:\CMake\share\cmake-3.27\Modules\MacroAddFileDependencies.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows-Determine-CXX.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\CMakeFiles\3.27.0-rc2\CMakeCCompiler.cmake;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\CMakeFiles\3.27.0-rc2\CMakeCXXCompiler.cmake;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\CMakeFiles\3.27.0-rc2\CMakeRCCompiler.cmake;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\CMakeFiles\3.27.0-rc2\CMakeSystem.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\BuildSystem.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\BuildType.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\CompileCheck.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\CreateSourceGroups.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\FindDirectX.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\FindGLEW.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\FindOpenALEFX.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\PrintConfiguration.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\StyleCheck.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\UseStaticLibs.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\VersionString.cmake;C:\Code\Git\arx-libertatis-Remix\arx\src\Configure.h.in;C:\Code\Git\arx-libertatis-Remix\arx\src\io\fs\PathConstants.h.in;C:\Code\Git\arx-libertatis-Remix\arx\src\platform\PlatformConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Code/Git/arx-libertatis-Remix/arx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/Code/Git/arx-libertatis-Remix/arx -BC:/Code/Git/arx-libertatis-Remix/arx/build_vc16 --check-stamp-file C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\CMake\share\cmake-3.27\Modules\CMakeCCompiler.cmake.in;C:\CMake\share\cmake-3.27\Modules\CMakeCCompilerABI.c;C:\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeCXXCompiler.cmake.in;C:\CMake\share\cmake-3.27\Modules\CMakeCXXCompilerABI.cpp;C:\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCXXCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineRCCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeDetermineSystem.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeParseLibraryArchitecture.cmake;C:\CMake\share\cmake-3.27\Modules\CMakePushCheckState.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeRCCompiler.cmake.in;C:\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeSystem.cmake.in;C:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeTestCCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeTestCXXCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.27\Modules\CMakeTestRCCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.27\Modules\CheckCXXSourceCompiles.cmake;C:\CMake\share\cmake-3.27\Modules\CheckCXXSymbolExists.cmake;C:\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;C:\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.27\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.27\Modules\CheckTypeSize.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.27\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.27\Modules\FindBoost.cmake;C:\CMake\share\cmake-3.27\Modules\FindDoxygen.cmake;C:\CMake\share\cmake-3.27\Modules\FindFreetype.cmake;C:\CMake\share\cmake-3.27\Modules\FindOpenAL.cmake;C:\CMake\share\cmake-3.27\Modules\FindOpenGL.cmake;C:\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.27\Modules\FindPythonInterp.cmake;C:\CMake\share\cmake-3.27\Modules\FindQt4.cmake;C:\CMake\share\cmake-3.27\Modules\FindSDL.cmake;C:\CMake\share\cmake-3.27\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.27\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.27\Modules\GNUInstallDirs.cmake;C:\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.27\Modules\Internal\FeatureTesting.cmake;C:\CMake\share\cmake-3.27\Modules\MacroAddFileDependencies.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows-Determine-CXX.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\CMakeFiles\3.27.0-rc2\CMakeCCompiler.cmake;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\CMakeFiles\3.27.0-rc2\CMakeCXXCompiler.cmake;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\CMakeFiles\3.27.0-rc2\CMakeRCCompiler.cmake;C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\CMakeFiles\3.27.0-rc2\CMakeSystem.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\BuildSystem.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\BuildType.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\CompileCheck.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\CreateSourceGroups.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\FindDirectX.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\FindGLEW.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\FindOpenALEFX.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\PrintConfiguration.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\StyleCheck.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\UseStaticLibs.cmake;C:\Code\Git\arx-libertatis-Remix\arx\cmake\VersionString.cmake;C:\Code\Git\arx-libertatis-Remix\arx\src\Configure.h.in;C:\Code\Git\arx-libertatis-Remix\arx\src\io\fs\PathConstants.h.in;C:\Code\Git\arx-libertatis-Remix\arx\src\platform\PlatformConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\ai\PathFinder.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\ai\PathFinderManager.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\ai\Paths.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\animation\Animation.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\animation\AnimationRender.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\animation\Cinematic.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\animation\CinematicKeyframer.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\animation\Intro.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\Ambiance.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\Audio.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\AudioEnvironment.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\AudioGlobal.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\AudioResource.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\AudioSource.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\Mixer.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\Sample.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\Stream.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\codec\ADPCM.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\codec\RAW.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\codec\WAV.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\openal\OpenALBackend.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\openal\OpenALSource.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\openal\OpenALUtils.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\dsound\DSoundBackend.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\dsound\DSoundSource.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\Application.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\ArxGame.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\Config.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\Core.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\GameTime.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\Localisation.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\SaveGame.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\Startup.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\Parser.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Camera.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Damage.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Entity.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\EntityId.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\EntityManager.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Equipment.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Inventory.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Item.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Levels.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Map.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Missile.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\NPC.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Player.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Spells.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\Draw.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\GraphicsModes.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\GraphicsUtility.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\Math.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\Renderer.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\CinematicTexture.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\FTL.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\Mesh.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\MeshManipulation.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\Progressive.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\TextureContainer.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\effects\CinematicEffects.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\effects\DrawEffects.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\effects\Fog.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\effects\SpellEffects.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\font\Font.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\font\FontCache.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\image\Image.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\image\stb_image.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\image\stb_image_write.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\particle\Particle.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\particle\ParticleEffects.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\particle\ParticleManager.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\particle\ParticleSystem.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells01.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells02.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells03.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells04.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells05.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells06.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells07.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells09.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells10.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\texture\PackedTexture.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\texture\Texture.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\texture\TextureStage.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\d3d9\D3D9Renderer.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\d3d9\D3D9Texture2D.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\d3d9\D3D9TextureStage.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\opengl\GLTexture2D.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\opengl\GLTextureStage.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\opengl\OpenGLRenderer.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Credits.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Interface.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Menu.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\MenuPublic.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\MenuWidgets.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\MiniMap.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Note.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Speech.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Text.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\TextManager.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\input\Input.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\input\SDLInputBackend.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\input\DInput8Backend.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\CinematicLoad.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\Implode.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\IniReader.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\IniSection.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\IniWriter.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\IO.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\SaveBlock.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\Screenshot.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\ConsoleLogger.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\LogBackend.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\Logger.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\MsvcLogger.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\FileLogger.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\CriticalLogger.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\Blast.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\resource\PakEntry.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\resource\PakReader.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\resource\ResourcePath.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\fs\FilePath.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\fs\FileStream.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\fs\Filesystem.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\fs\SystemPaths.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\fs\FilesystemWindows.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\math\Angle.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\math\Random.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Anchors.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Attractors.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Box.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Clothes.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Collisions.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\CollisionShapes.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Physics.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Dialog.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Environment.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Lock.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\OS.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Platform.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\ProgramOptions.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Time.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Thread.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\CrashHandler.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\ChangeLevel.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\CinematicSound.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\GameSound.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\Interactive.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\Light.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\LinkedObject.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\LoadLevel.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\Object.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\Scene.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\Script.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedAnimation.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedCamera.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedControl.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedConversation.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedInterface.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedInventory.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedIOControl.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedIOProperties.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedItem.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedLang.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedNPC.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedPlayer.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedVariable.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptEvent.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptUtils.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\String.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\window\RenderWindow.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\window\Window.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\window\Win32Window.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\window\D3D9Window.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\window\SDLWindow.cpp" />
+    <ResourceCompile Include="C:\Code\Git\arx-libertatis-Remix\arx\data\icons\arx-libertatis.rc" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\core\Version.cpp" />
+    <ClCompile Include="C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\ub_arx.cpp" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\ai\PathFinder.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\ai\PathFinderManager.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\ai\Paths.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\animation\Animation.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\animation\AnimationRender.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\animation\Cinematic.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\animation\CinematicKeyframer.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\Ambiance.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\Audio.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\AudioBackend.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\AudioEnvironment.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\AudioGlobal.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\AudioResource.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\AudioSource.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\AudioTypes.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\Mixer.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\Sample.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\Stream.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\codec\ADPCM.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\codec\Codec.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\codec\RAW.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\codec\WAV.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\codec\WAVFormat.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\dsound\DSoundBackend.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\dsound\DSoundSource.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\dsound\dsoundfwd.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\dsound\eax.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\openal\OpenALBackend.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\openal\OpenALSource.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\audio\openal\OpenALUtils.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\Application.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\ArxGame.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\Config.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\Core.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\GameTime.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\Localisation.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\SaveGame.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\URLConstants.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\Version.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Camera.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Damage.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Entity.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\EntityId.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\EntityManager.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Equipment.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Inventory.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Item.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Levels.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Map.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Missile.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\NPC.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Player.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\game\Spells.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\BaseGraphicsTypes.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\Color.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\Draw.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\GraphicsFormat.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\GraphicsModes.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\GraphicsTypes.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\GraphicsUtility.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\Math.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\Renderer.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\Vertex.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\VertexBuffer.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\d3d9\D3D9Renderer.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\d3d9\D3D9Texture2D.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\d3d9\D3D9TextureStage.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\d3d9\D3D9VertexBuffer.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\CinematicTexture.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\FTL.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\FTLFormat.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\FastSceneFormat.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\Mesh.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\MeshManipulation.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\Progressive.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\data\TextureContainer.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\effects\CinematicEffects.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\effects\DrawEffects.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\effects\Fog.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\effects\SpellEffects.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\font\Font.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\font\FontCache.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\image\Image.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\image\stb_image.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\image\stb_image_write.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\opengl\GLNoVertexBuffer.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\opengl\GLTexture2D.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\opengl\GLTextureStage.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\opengl\GLVertexBuffer.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\opengl\OpenGLRenderer.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\opengl\OpenGLUtil.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\particle\Particle.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\particle\ParticleEffects.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\particle\ParticleManager.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\particle\ParticleParams.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\particle\ParticleSystem.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells01.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells02.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells03.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells04.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells05.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells06.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells07.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells09.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\spells\Spells10.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\texture\PackedTexture.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\texture\Texture.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\graphics\texture\TextureStage.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Credits.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Interface.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Menu.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\MenuPublic.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\MenuWidgets.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\MiniMap.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Note.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Speech.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\Text.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\gui\TextManager.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\input\DInput8Backend.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\input\Input.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\input\InputBackend.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\input\InputKey.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\input\Keyboard.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\input\Mouse.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\input\SDLInputBackend.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\Blast.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\CinematicFormat.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\CinematicLoad.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\IO.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\Implode.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\IniReader.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\IniSection.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\IniWriter.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\SaveBlock.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\Screenshot.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\fs\FilePath.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\fs\FileStream.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\fs\Filesystem.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\fs\SystemPaths.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\ColorLogger.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\ConsoleLogger.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\CriticalLogger.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\FileLogger.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\LogBackend.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\Logger.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\log\MsvcLogger.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\resource\PakEntry.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\resource\PakReader.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\io\resource\ResourcePath.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\math\Angle.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\math\MathFwd.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\math\Random.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\math\Rectangle.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\math\Vector2.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\math\Vector3.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Anchors.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Attractors.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Box.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Clothes.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\CollisionShapes.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Collisions.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\physics\Physics.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Architecture.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Compiler.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\CrashHandler.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Dialog.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Environment.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Flags.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Lock.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\OS.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Platform.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\ProgramOptions.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Thread.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\Time.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\crashhandler\CrashHandlerImpl.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\crashhandler\CrashHandlerPOSIX.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\crashhandler\CrashHandlerWindows.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\platform\crashhandler\CrashInfo.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\ChangeLevel.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\CinematicSound.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\GameSound.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\Interactive.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\LevelFormat.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\Light.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\LinkedObject.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\LoadLevel.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\Object.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\ObjectFormat.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\SaveFormat.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\scene\Scene.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\Script.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptEvent.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptUtils.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedAnimation.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedCamera.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedControl.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedConversation.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedIOControl.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedIOProperties.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedInterface.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedInventory.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedItem.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedLang.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedNPC.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedPlayer.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\script\ScriptedVariable.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\String.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\Unicode.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\CommandLineException.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\Ellipsis.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\Interpreter.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\Keys.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\Optional.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\Parser.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\TypeCast.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\ArgsAdapter.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\Construct.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\Interpreter.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\LFunction.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\LexicalCall.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\argsadapter\ArgsAdapterImpl.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\argsadapter\ArgsImpl.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\argsadapter\Get.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\argsadapter\Preprocessed.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\argsadapter\TypeImpl.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\lfunction\LFNInvoker.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\lfunction\MakeLFunctionC.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\lfunction\MakeLFunctionOp.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\util\cmdline\detail\lfunction\Preprocessed.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\window\D3D9Window.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\window\RenderWindow.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\window\SDLWindow.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\window\Win32Window.h" />
+    <ClInclude Include="C:\Code\Git\arx-libertatis-Remix\arx\src\window\Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\ZERO_CHECK.vcxproj">
+      <Project>{3F1E4E6D-978D-390B-83E3-E7C5EA9BD66E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\ub_notice.vcxproj">
+      <Project>{51033783-99E7-3DEE-8E61-8D040208B7EF}</Project>
+      <Name>ub_notice</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

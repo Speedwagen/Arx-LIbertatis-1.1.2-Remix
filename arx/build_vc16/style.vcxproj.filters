@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Code\Git\arx-libertatis-Remix\arx\src\core\Version.cpp.in">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\CMakeFiles\f5d71e61782c400c1164a50938395227\style.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Code\Git\arx-libertatis-Remix\arx\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Code\Git\arx-libertatis-Remix\arx\build_vc16\CMakeFiles\style" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C3CC52E5-BF82-3A11-829D-C4C8C83BBB44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4C6146F5-3564-3A6D-9E98-DE08AF325D14}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

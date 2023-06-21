@@ -1,0 +1,10 @@
+^C:\CODE\GIT\ARX-LIBERTATIS-REMIX\ARX\BUILD_VC16\CMAKEFILES\F5D71E61782C400C1164A50938395227\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

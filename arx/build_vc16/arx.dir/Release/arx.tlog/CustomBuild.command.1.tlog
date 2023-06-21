@@ -1,0 +1,20 @@
+^C:\CODE\GIT\ARX-LIBERTATIS-REMIX\ARX\SRC\CORE\VERSION.CPP.IN
+setlocal
+C:\CMake\bin\cmake.exe -DINPUT=C:/Code/Git/arx-libertatis-Remix/arx/src/core/Version.cpp.in -DOUTPUT=C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/core/Version.cpp -DVERSION_SOURCES=VERSION";"C:/Code/Git/arx-libertatis-Remix/arx/VERSION";"AUTHORS";"C:/Code/Git/arx-libertatis-Remix/arx/AUTHORS -DGIT_DIR=C:/Code/Git/arx-libertatis-Remix/arx/.git -P C:/Code/Git/arx-libertatis-Remix/arx/cmake/VersionScript.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CODE\GIT\ARX-LIBERTATIS-REMIX\ARX\CMAKELISTS.TXT
+setlocal
+C:\CMake\bin\cmake.exe -SC:/Code/Git/arx-libertatis-Remix/arx -BC:/Code/Git/arx-libertatis-Remix/arx/build_vc16 --check-stamp-file C:/Code/Git/arx-libertatis-Remix/arx/build_vc16/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
