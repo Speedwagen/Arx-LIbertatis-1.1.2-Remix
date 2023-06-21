@@ -27,7 +27,7 @@ Additionally, you'll need the following libraries to build the Crash Reporter:
 
 1. Download the content of this repository to your PC
 
-        Let's say in "E:\git\Arx-LIbertatis-1.1.2-Remix\..."
+        Let's say in "C:\git\Arx-LIbertatis-1.1.2-Remix\..."
 
 2. Add the following environment variable:
 
