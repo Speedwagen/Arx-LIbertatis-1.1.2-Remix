@@ -34,7 +34,7 @@ Additionally, you'll need the following libraries to build the Crash Reporter:
         CMAKE_PREFIX_PATH
 and set its value to
 
-        C:\git\Arx-LIbertatis-1.1.2-Remix\libs\zlib;C:\gitArx-LIbertatis-1.1.2-Remix\libs\freetype;C:\git\Arx-LIbertatis-1.1.2-Remix\libs\devil;C:\git\Arx-LIbertatis-1.1.2-Remix\libs\openal;C:\git\Arx-LIbertatis-1.1.2-Remix\libs\boost;C:\git\Arx-LIbertatis-1.1.2-Remix\libs\opengl;C:\git\Arx-LIbertatis-1.1.2-Remix\libs\sdl;C:\git\Arx-LIbertatis-1.1.2-Remix\libs\directx;C:\git\Arx-LIbertatis-1.1.2-Remix\libs\dbghelp
+        C:\git\Arx-LIbertatis-1.1.2-Remix\libs\zlib;C:\git\Arx-LIbertatis-1.1.2-Remix\libs\freetype;C:\git\Arx-LIbertatis-1.1.2-Remix\libs\devil;C:\git\Arx-LIbertatis-1.1.2-Remix\libs\openal;C:\git\Arx-LIbertatis-1.1.2-Remix\libs\boost;C:\git\Arx-LIbertatis-1.1.2-Remix\libs\opengl;C:\git\Arx-LIbertatis-1.1.2-Remix\libs\sdl;C:\git\Arx-LIbertatis-1.1.2-Remix\libs\directx;C:\git\Arx-LIbertatis-1.1.2-Remix\libs\dbghelp
 
 3. Copy the necessary DLLs to the game binary folder (arx\bin). Those marked with a (*) are only needed for the Crash Reporter, 
 
